@@ -83,18 +83,29 @@ Weekday may or may not influence bookings, and the model will decide its importa
 **Technologies Used**
 
 eaborn 0.11.1
+
 jupyter 1.0.0
+
 numpy 1.20.1
+
 anaconda 2021.05
+
 python 3.8.8
+
 matplotlib 3.3.4
+
 Microsoft excel
+
 Scikit-learn 
+
 Statsmodels
+
 **Acknowledgements**
 
 Thanks upgrad team
+
 **Contacts**
+
 Created by priyanka kumari - feel free to contact me!
 
 
