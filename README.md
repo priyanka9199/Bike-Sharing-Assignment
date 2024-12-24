@@ -5,7 +5,7 @@ The goal of the case study is to build a predictive model (often using regressio
 
 It may also involve performing exploratory data analysis (EDA), building machine learning models (such as linear regression or random forests), and validating model performance using metrics like R-squared and mean absolute error (MAE).
 
-##**Business Problem:**
+**Business Problem:**
 
 BoomBikes, a US-based bike-sharing service, faced revenue losses due to the COVID-19 pandemic. With restrictions easing, the company aims to predict bike demand to optimize operations and boost profitability.
 
@@ -18,6 +18,7 @@ Use insights to streamline operations, manage inventory, and improve marketing s
 Outcome:
 
 The analysis will help BoomBikes make data-driven decisions to meet demand, enhance efficiency, and drive revenue growth post-pandemic.
+
 **Dataset:**
 
 Target Variable:
