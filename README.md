@@ -37,6 +37,8 @@ temp: Normalized temperature (0–1 scale).
 atemp: Normalized feeling temperature (0–1 scale).
 hum: Normalized humidity (0–1 scale).
 windspeed: Normalized wind speed (0–1 scale).
+**EDA Data observations & recommendations**
+
 
 
 
