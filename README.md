@@ -37,7 +37,48 @@ temp: Normalized temperature (0–1 scale).
 atemp: Normalized feeling temperature (0–1 scale).
 hum: Normalized humidity (0–1 scale).
 windspeed: Normalized wind speed (0–1 scale).
+
 **EDA Data observations & recommendations**
+
+There is an increase in the number of bike users from 2018 (0) to 2019 (1).
+
+More users are observed during holidays (0) compared to non-holidays (1).
+
+The difference in bike users between working days (1) and non-working days (0) is minimal.
+
+There were six categorical variables in the dataset, and we used boxplots to examine their impact on the target variable 'cnt' (total bike bookings). Here are the key takeaways:
+
+Season:
+
+Around 32% of bike bookings occurred in season 3 (fall), with a median of over 5000 bookings across two years. Season 2 (summer) and season 4 (winter) followed with 27% and 25% of total bookings, respectively. This suggests that the season is a strong predictor for bike bookings.
+
+Month (mnth):
+
+Around 10% of bookings happened in the months of May, June, July, August, and September, with a median of over 4000 bookings per month. This indicates that the month has a clear trend in bookings and could also be a good predictor.
+
+Weather Situation (weathersit):
+
+67% of bookings occurred in weather situation 1, with a median close to 5000 bookings. Weather situation 2 accounted for 30% of bookings. This shows that weather conditions influence bike bookings and can be a useful predictor.
+
+Holiday:
+
+97.6% of bookings happened when it was not a holiday. This highly imbalanced distribution means holiday is not a useful predictor for bike bookings. Weekday:
+
+The distribution of bookings across weekdays was similar, with each day having around 13.5%-14.8% of total bookings, and medians between 4000-5000 bookings. This suggests weekday may have minimal or no impact on bike bookings. The model can help decide whether it should be included.
+
+Working Day:
+
+About 69% of bookings occurred on working days, with a median close to 5000 bookings.
+
+This indicates that working day can be an important predictor for bike bookings.
+
+**Conclusion:**
+
+Season, month, weathersit, and working day are strong predictors of bike bookings.
+
+Holiday is not a useful predictor due to its bias.
+
+Weekday may or may not influence bookings, and the model will decide its importance.
 
 
 
