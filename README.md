@@ -8,26 +8,19 @@ It may also involve performing exploratory data analysis (EDA), building machine
 **Business Problem:**
 
 BoomBikes, a US-based bike-sharing service, faced revenue losses due to the COVID-19 pandemic. With restrictions easing, the company aims to predict bike demand to optimize operations and boost profitability.
-
 Key Goals:
-
 Identify factors influencing bike demand (weather, season, holidays).
 Build a predictive model for accurate demand forecasting.
 Use insights to streamline operations, manage inventory, and improve marketing strategies.
-
 Outcome:
-
 The analysis will help BoomBikes make data-driven decisions to meet demand, enhance efficiency, and drive revenue growth post-pandemic.
 
 **Dataset:**
 
 Target Variable:
-
 cnt: Total count of bikes rented (dependent variable).
 Independent Variables:
-
 Date and Time:
-
 dteday: Date of observation.
 yr: Year (0 = 2011, 1 = 2012).
 mnth: Month (1 to 12).
