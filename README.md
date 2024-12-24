@@ -1,5 +1,5 @@
 # Bike-Sharing-Assignment
-##**Introduction**
+##**Introduction**##
 
 The goal of the case study is to build a predictive model (often using regression techniques) to forecast bike rentals, understanding how external factors like weather, time, and holidays influence usage. This helps the business improve fleet management, adjust availability, and target promotions to increase usage, especially during off-peak periods.
 
